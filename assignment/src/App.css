@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+  }
+  
+  .dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tag-filter {
+    margin-bottom: 20px;
+  }
+  
+  .tag-filter label {
+    margin-right: 10px;
+  }
+  
+  .week-schedule {
+    border-top: 1px solid rgb(181, 178, 178);
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .day-column {
+    flex:1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .pm-item {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background: #deb28b;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .status-group {
+    margin-bottom: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
